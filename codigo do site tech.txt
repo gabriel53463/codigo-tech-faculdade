@@ -1,0 +1,707 @@
+HTML 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewrt" content="width=device-width, initial-scale=1.0">
+    <title>TECH - Soluções Digitais</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* Estilos personalizados */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fcf8f8;
+            color: #110101;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        #header {
+            background-color: #f8f9fa;
+            color: #000000;
+            padding: 15px 0;
+        }
+        #header .navbar-brand {
+            font-weight: bold;
+        }
+        #hero {
+            background-image: url('hero-background.jpg');
+            background-size: cover;
+            color: #000000;
+            padding: 150px 0;
+            text-align: center;
+        }
+        #hero h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        #hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        #services, #portfolio, #team, #contact {
+            padding: 80px 0;
+            text-align: center;
+        }
+        #services h2, #portfolio h2, #team h2, #contact h2 {
+            margin-bottom: 50px;
+        }
+        #services h3, #portfolio h3, #team h3 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        #services p, #portfolio p, #team p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        #footer {
+            background-color: #343a40;
+            color: #ece8e8;
+            padding: 30px 0;
+            text-align: center;
+        }
+        #footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="logo.png" alt="TECH" height="40">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfólio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Equipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <h1>Bem-vindo à TECH</h1>
+                    <p>Somos especializados em soluções digitais para impulsionar o seu negócio.</p>
+                    <a href="#contact" class="btn btn-primary">Entre em contato</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3><i class="fas fa-laptop-code"></i> Desenvolvimento Web</h3>
+                    <p>Desenvolvemos sites responsivos e modernos para o seu negócio.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3><i class="fas fa-chart-line"></i> Marketing Digital</h3>
+                    <p>Executamos estratégias de marketing online para aumentar a sua visibilidade.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3><i class="fas fa-server"></i> Consultoria em TI</h3>
+                    <p>Oferecemos consultoria especializada para otimizar a sua infraestrutura de TI.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfólio</h2>
+            <p>Confira alguns dos projetos que desenvolvemos para nossos clientes:</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="portfolio-1.jpg" alt="Projeto 1" class="img-fluid">
+                    <h4>Projeto 1</h4>
+                    <p>Descrição do Projeto 1.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="portfolio-2.jpg" alt="Projeto 2" class="img-fluid">
+                    <h4>Projeto 2</h4>
+                    <p>Descrição do Projeto 2.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="portfolio-3.jpg" alt="Projeto 3" class="img-fluid">
+                    <h4>Projeto 3</h4>
+                    <p>Descrição do Projeto 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team">
+        <div class="container">
+            <h2>Nossa Equipe</h2>
+            <p>Conheça os profissionais que fazem parte da nossa equipe:</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="team-member-1.jpg" alt="Membro da Equipe 1" class="img-fluid rounded-circle mb-3">
+                    <h4>Julio</h4>
+                    <p>Suporte Tecnico.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="team-member-2.jpg" alt="Membro da Equipe 2" class="img-fluid rounded-circle mb-3">
+                    <h4>Gustavo</h4>
+                    <p>Desenvolvedor.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="team-member-3.jpg" alt="Membro da Equipe 3" class="img-fluid rounded-circle mb-3">
+                    <h4>Wesley</h4>
+                    <p>Finan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Fale Conosco</h2>
+            <p>Entre em contato conosco preenchendo o formulário abaixo:</p>
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <p>&copy; 2024 TECH. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+SOBRE HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Meu Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Adicione estilos CSS adicionais aqui para melhorar a aparência do formulário, do cabeçalho e do rodapé */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        #content {
+            padding: 50px 0;
+        }
+
+        form {
+            text-align: left;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        form textarea {
+            height: 100px;
+        }
+
+        form button[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        form button[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Meu Site</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Página Principal</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="content">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Você pode nos contatar através do formulário abaixo:</p>
+            <form id="contactForm">
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Mensagem:</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Meu Site</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+contato.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Meu Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Adicione estilos CSS adicionais aqui para melhorar a aparência do formulário, do cabeçalho e do rodapé */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        #content {
+            padding: 50px 0;
+        }
+
+        form {
+            text-align: left;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        form textarea {
+            height: 100px;
+        }
+
+        form button[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        form button[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Meu Site</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Página Principal</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="content">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Você pode nos contatar através do formulário abaixo:</p>
+            <form id="contactForm">
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Mensagem:</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Meu Site</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+index.css
+/* Reset de estilos padrão e definição da fonte */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+
+/* Container para o conteúdo central */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Estilo do cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center; /* Centraliza o conteúdo do cabeçalho */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Menu de navegação */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; /* Centraliza os links de navegação */
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Estilo do conteúdo principal */
+#content {
+  padding: 50px 0;
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Estilo genérico para botões */
+button, form button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover, form button[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Estilo do formulário */
+form {
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+form textarea {
+  height: 100px;
+}
+
+script.js
+"use strict";
+
+// Função para aguardar o evento DOMContentLoaded antes de executar o script
+document.addEventListener("DOMContentLoaded", function() {
+    // Inicializa o botão de alteração de texto
+    initChangeTextButton();
+});
+
+// Função para inicializar o botão de alteração de texto
+function initChangeTextButton() {
+    // Obtém o botão de alteração de texto pelo ID
+    var changeTextBtn = document.getElementById("changeTextBtn");
+
+    // Verifica se o botão existe
+    if (changeTextBtn) {
+        // Adiciona um ouvinte de evento de clique ao botão
+        changeTextBtn.addEventListener("click", function() {
+            // Obtém o elemento de conteúdo pelo ID
+            var content = document.getElementById("content");
+
+            // Verifica se o elemento de conteúdo existe
+            if (content) {
+                // Altera o conteúdo quando o botão é clicado
+                content.innerHTML = "<h2>Texto alterado!</h2><p>O texto foi alterado com sucesso.</p>";
+            }
+        });
+    }
+}
+
+index.js
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Inicializa o botão de alteração de texto
+    initChangeTextButton();
+
+    // Inicializa o formulário de contato
+    initContactForm();
+});
+
+// Função para inicializar o botão de alteração de texto
+function initChangeTextButton() {
+    var changeTextBtn = document.getElementById("changeTextBtn");
+
+    if (changeTextBtn) {
+        changeTextBtn.addEventListener("click", function() {
+            var content = document.getElementById("content");
+
+            if (content) {
+                content.innerHTML = "<h2>Texto alterado!</h2><p>O texto foi alterado com sucesso.</p>";
+            }
+        });
+    }
+}
+
+// Função para inicializar o formulário de contato
+function initContactForm() {
+    var contactForm = document.getElementById("contactForm");
+
+    if (contactForm) {
+        contactForm.addEventListener("submit", function(event) {
+            event.preventDefault(); // Evita o envio padrão do formulário
+
+            // Obtém os valores dos campos do formulário
+            var name = document.getElementById("name").value.trim();
+            var email = document.getElementById("email").value.trim();
+            var message = document.getElementById("message").value.trim();
+
+            // Verifica se os campos obrigatórios foram preenchidos
+            if (name === "" || email === "" || message === "") {
+                alert("Por favor, preencha todos os campos do formulário.");
+                return; // Aborta o envio do formulário se houver campos vazios
+            }
+
+            // Envia os dados do formulário para o servidor (simulação)
+            console.log("Nome: " + name + ", Email: " + email + ", Mensagem: " + message);
+
+            // Exibe uma mensagem de sucesso ao usuário
+            alert("Obrigado por entrar em contato!");
+        });
+    }
+}
